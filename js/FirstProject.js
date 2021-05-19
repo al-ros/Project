@@ -49,15 +49,15 @@ const personalMovieDB =  {
 //     console.log("Realy?! No one?!");
 // }
 
-if (personalMovieDB.count < 10) {
-    console.log('You watched little movies');
-}else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-    console.log('You are average wacher!');
-} else if (personalMovieDB.count >= 30) {
-    console.log('You are movie maniac!');
-} else {
-    console.log('Error!');
-}
+// if (personalMovieDB.count < 10) {
+//     console.log('You watched little movies');
+// }else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//     console.log('You are average wacher!');
+// } else if (personalMovieDB.count >= 30) {
+//     console.log('You are movie maniac!');
+// } else {
+//     console.log('Error!');
+// }
 
 // console.log(personalMovieDB);
 
@@ -67,28 +67,28 @@ if (personalMovieDB.count < 10) {
 
 // Teachers answer:
 
-// let numberOfFilms = +prompt('How many movies have you watched so far?', '');
+let numberOfFilms = +prompt('How many movies have you watched so far?', '');
 
-// const personalMovieDB =  {
-//     count: numberOfFilms,
-//     movies:  {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// };
+const personalMovieDB =  {
+    count: numberOfFilms,
+    movies:  {},
+    actors: {},
+    genres: [],
+    privat: false
+};
  
-// for (let i = 0; i < 2; i++) {
-//     const a = prompt('Last movie you watched?', ''),
-//           b = prompt('Rate this movie', '');
+for (let i = 0; i < 2; i++) {
+    const a = prompt('Last movie you watched?', ''),
+          b = prompt('Rate this movie', '');
 
-//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-//         personalMovieDB.movies[a] = b;
-//         console.log('Done');
-//     } else {
-//         console.log('Error');
-//         i--;
-//     }
+    if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+        personalMovieDB.movies[a] = b;
+        console.log('Done');
+    } else {
+        console.log('Error');
+        i--;
+    }
     
-// }
+}
 
-// console.log(personalMovieDB);
+console.log(personalMovieDB);
