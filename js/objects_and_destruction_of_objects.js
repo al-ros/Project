@@ -4,7 +4,7 @@ const options = {
     name: 'test',
     width: 1024,
     height: 1024,
-    collors: {
+    colors: {
         border: 'black',
         bg: 'red'
     },
@@ -14,14 +14,17 @@ const options = {
 };
 
 options.makeTest();
-console.log(Object.keys(options).length);
+
+const {border, bg} = options.colors;
+console.log(border);
+// console.log(Object.keys(options).length);
 
 // console.log(options.name);
 
 // delete options.name;
 // console.log(options);
 
-// console.log (options['collors']['border']);
+// console.log (options['colors']['border']);
 
 // let counter = 0;
 // for (let key in options) {

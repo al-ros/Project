@@ -20,15 +20,15 @@
 
 // My answer:
 
-let numberOfFilms = +prompt('How many movies have you watched so far?', '');
+// let numberOfFilms = +prompt('How many movies have you watched so far?', '');
 
-const personalMovieDB =  {
-    count: numberOfFilms,
-    movies:  {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB =  {
+//     count: numberOfFilms,
+//     movies:  {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
 
 // let i = 0;

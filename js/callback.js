@@ -23,5 +23,4 @@ function done() {
     console.log('I pass this lesson!');
 }
 
-
 learnJS('JavaScript', done);
