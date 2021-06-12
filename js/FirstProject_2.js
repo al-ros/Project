@@ -1,19 +1,19 @@
 'use strict';
 
-let numberOfFilms;
+let personalMovieDB.genres[i - 1];
 
 function start() {
-    numberOfFilms = +prompt('How many movies have you watched so far?', '');
+    personalMovieDB.genres[i - 1] = +prompt('How many movies have you watched so far?', '');
 
-    while(numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
-        numberOfFilms = +prompt('How many movies have you watched so far?', '');
+    while(personalMovieDB.genres[i - 1] == '' || personalMovieDB.genres[i - 1] == null || isNaN(personalMovieDB.genres[i - 1])) {
+        personalMovieDB.genres[i - 1] = +prompt('How many movies have you watched so far?', '');
     }
 }
 
 start();
 
 const personalMovieDB =  {
-    count: numberOfFilms,
+    count: personalMovieDB.genres[i - 1],
     movies:  {},
     actors: {},
     genres: [],
